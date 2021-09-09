@@ -1,6 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import Header from "@evans/components/Navigation/Header"
+import CardWithBackground from "@evans/components/Cards/CardBackground/CardWithBackground"
 // import Image from "next/image"
 
 const Home: NextPage = () => (
@@ -11,6 +12,7 @@ const Home: NextPage = () => (
     </Head>
 
     <Header />
+    <CardWithBackground />
   </div>
 )
 
