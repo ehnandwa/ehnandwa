@@ -1,25 +1,42 @@
+import React from "react"
+import Link from "next/link"
+import OpenMobileMenuIcon from "@evans/components/Icons/Button/OpenMobileMenuIcon"
+
 function Header() {
-  return(
-    <header className="">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="flex justify-between">
-
-          <div className="flex space-x-4">
-            <div>
-              <a href="#" className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
-                <span className="font-bold">Ehn</span>
-              </a>
-            </div>
+  return (
+    <header>
+      <nav className="header">
+        <div className="flex items-center flex-shrink-0 text-white mr-6">
+          <Link href="/">
+            <a>
+              <span className="font-semibold text-xl lg:ml-64 tracking-tight">EHN</span>
+            </a>
+          </Link>
+        </div>
+        <div className="block lg:hidden">
+          <button type="button"
+            className="click-btn">
+            <OpenMobileMenuIcon  className="fill-current h-3 w-3"/>
+          </button>
+        </div>
+        <div className="w-full  block hidden flex-grow lg:flex lg:items-center lg:w-auto">
+          <div className="text-sm space-x-10 lg:flex-grow">
+            <a
+               className="block mt-4 lg:inline-block  lg:mt-0 text-teal-200 hover:text-white mr-4">
+              Home
+            </a>
+            <a className="block mt-4 lg:inline-block  lg:mt-0 text-teal-200 hover:text-white">
+              Blog
+            </a>
           </div>
-
-          <div className="hidden md:flex items-center space-x-1">
-            <a href=""
-               className="py-2 px-3  hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300">Resume</a>
+          <div className="lg:mr-44">
+            <Link  href="/">
+              <a className="resume">Resume</a>
+            </Link>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
   )
-
 }
 export default Header
