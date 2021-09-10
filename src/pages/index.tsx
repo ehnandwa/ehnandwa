@@ -1,7 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import Header from "@evans/components/Navigation/Header"
-import CardWithBackground from "@evans/components/Cards/CardBackground/CardWithBackground"
+import DevelopmentToolsAndStacks from "@evans/components/Projects/Stacks/DevelopmentToolsAndStacks"
 // import Image from "next/image"
 
 const Home: NextPage = () => (
@@ -11,9 +11,9 @@ const Home: NextPage = () => (
       <meta name="description" content="website" />
     </Head>
     <Header />
-    <CardWithBackground />
-
-
+    <div className="">
+      <DevelopmentToolsAndStacks />
+    </div>
   </div>
 )
 
