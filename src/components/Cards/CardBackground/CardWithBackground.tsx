@@ -7,10 +7,12 @@ function CardWithBackground() {
       <div className="lg:w-80 pt-8 w-80  lg:ml-64 mb-8">
         <div className="bg-gray-800 text-gray-50 rounded-xl p-8 space-y-7">
           <div className="flex items-center justify-center space-x-8">
-            <Image width={48} height={48}
+            <Image
+              width={48}
+              height={48}
               src="https://assets.pesaledger.com/cms/378bb8497a8410e7372053d65908747e.jpg"
               alt=""
-              className="rounded-full "
+              className="rounded-full"
             />
           </div>
 
