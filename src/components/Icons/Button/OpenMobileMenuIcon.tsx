@@ -2,8 +2,9 @@ import React from "react"
 
 function OpenMobileMenuIcon(props:any) {
   return (
-    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" {...props}>
-      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke="currentColor" {...props}>
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
     </svg>
   )
 }

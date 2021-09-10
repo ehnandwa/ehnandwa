@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 function CardWithBackground() {
   return (
@@ -6,10 +7,10 @@ function CardWithBackground() {
       <div className="lg:w-80 pt-8 w-80  lg:ml-64 mb-8">
         <div className="bg-gray-800 text-gray-50 rounded-xl p-8 space-y-7">
           <div className="flex items-center justify-center space-x-8">
-            <img
-              src="https://images.unsplash.com/photo-1624669240815-815a23372f37?"
-              alt="baby with headphones"
-              className="w-36 h-36 rounded-full object-cover"
+            <Image width={48} height={48}
+              src="https://assets.pesaledger.com/cms/378bb8497a8410e7372053d65908747e.jpg"
+              alt=""
+              className="rounded-full "
             />
           </div>
 

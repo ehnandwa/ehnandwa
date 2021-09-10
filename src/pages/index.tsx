@@ -10,9 +10,10 @@ const Home: NextPage = () => (
       <title>evans</title>
       <meta name="description" content="website" />
     </Head>
-
     <Header />
     <CardWithBackground />
+
+
   </div>
 )
 
