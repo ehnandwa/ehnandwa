@@ -81,7 +81,7 @@ module.exports = {
       animation: {
         spin_slow: "spin_low 20s linear infinite",
         wiggle: "wiggle 1s ease-in-out infinite",
-        ping: "ping  15s cubic-bezier(0, 0, 0.2, 1) infinite",
+        ping: "ping  35s cubic-bezier(0, 0, 0.2, 1) infinite",
         spin: " spin 11s linear infinite",
         bounce1: "bounce1 3s infinite",
         pulse1: "pulse1 3s cubic-bezier(0.4, 0, 0.6, 1)  infinite",

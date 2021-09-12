@@ -21,117 +21,86 @@
   @apply py-1.5 px-5 bg-blue-10 hover:bg-blue-10  hover:text-gray-1 rounded-full transition duration-300;
 }
 .dev-stack {
-  @apply w-3/4 lg:w-1/2 bg-blue-11 p-5 pb-32 rounded  space-y-6 overflow-hidden;
+  @apply lg:w-1/2 bg-blue-11 rounded  space-y-6 overflow-hidden;
 }
 .animate-scrolll {
-  @apply animate-scroll1   flex space-x-1 whitespace-nowrap text-xs;
+  @apply  flex space-x-1 whitespace-nowrap text-xs;
 }
 .strapi {
-  @apply rounded-full h-16 w-16 flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  flex  md:flex items-center justify-center bg-blue-10 ;
 }
 .git {
-  @apply rounded-full h-16 w-16 flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  flex  md:flex  items-center justify-center bg-blue-10;
 }
 .posthog {
-  @apply rounded-full h-16 w-16 flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  flex  md:flex  items-center justify-center bg-blue-10;
 }
 .datadog {
-  @apply rounded-full h-16 hover:animate-bounce1 w-16 flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  flex hover:animate-bounce1  md:flex  items-center justify-center bg-blue-10;
 }
 .anime-scroll {
-  @apply animate-scroll12 flex space-x-1 whitespace-nowrap text-xs;
+  @apply flex space-x-1 whitespace-nowrap text-xs;
 }
 .typescript {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1 h-24 w-24  flex    md:flex  items-center justify-center bg-blue-10;
 }
 .postgres {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1 h-24 w-24    flex  md:flex  items-center justify-center bg-blue-10;
 }
 .prometheus {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1 h-24 w-24  overflow-hidden flex  md:flex  items-center justify-center bg-blue-10;
 }
 .pivotal {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1 h-24 w-24   flex md:flex  items-center justify-center bg-blue-10;
 }
 .storybook {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1  h-24 w-24  flex md:flex  items-center justify-center bg-blue-10;
 }
 .chromatic {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1  h-24 w-24  flex  md:flex  items-center justify-center bg-blue-10;
 }
 .gitlab {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1  h-24 w-24  flex md:flex  items-center justify-center bg-blue-10;
 }
 .tailwind {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1 h-24 w-24   flex  items-center justify-center bg-blue-10;
 }
 .laravel {
-  @apply rounded-full  hover:animate-bounce1 h-16 w-16  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  hover:animate-bounce1  h-24 w-24   md:flex  items-center justify-center bg-blue-10;
 }
 .animatescroll {
-  @apply animate-scroll123 flex space-x-1 whitespace-nowrap text-xs;
+  @apply  flex space-x-1 whitespace-nowrap text-xs;
 }
-.git {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+.git1 {
+  @apply rounded-full h-24 w-24  overflow-hidden  md:flex  items-center justify-center bg-blue-10;
 }
 .gcp {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  overflow-hidden  md:flex  items-center justify-center bg-blue-10;
 }
 .docker {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  overflow-hidden   md:flex  items-center justify-center bg-blue-10;
 }
 .nextjs {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  h-24 w-24  overflow-hidden   md:flex  items-center justify-center bg-blue-10;
 }
 .vercel {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  h-24 w-24  overflow-hidden   md:flex  items-center justify-center bg-blue-10;
 }
 .s3 {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  overflow-hidden  md:flex  items-center justify-center bg-blue-10;
 }
 .git_ {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  h-24 w-24  overflow-hidden md:flex  items-center justify-center bg-blue-10;
 }
 .sentry {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  overflow-hidden  md:flex  items-center justify-center bg-blue-10;
 }
 .linux {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full h-24 w-24  overflow-hidden  md:flex  items-center justify-center bg-blue-10;
 }
 .kube {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
+  @apply rounded-full  h-24 w-24  overflow-hidden   md:flex  items-center justify-center bg-blue-10;
 }
 .grafana {
-  @apply rounded-full h-16 w-16 overflow-hidden  flex items-center justify-center bg-blue-10;
-}
-
-.click-btn {
-  @apply flex items-center px-3 py-2 border rounded-full text-blue-50 border-blue-200;
-}
-.animatebounce {
-  animation: bounce 1s infinite;
-}
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(-15%);
-    animation-timing-function: cubic-bezier(1.8, 0, 1, 1);
-  }
-  50% {
-    transform: translateY(0);
-    animation-timing-function: cubic-bezier(0, 0, 0.8, 1);
-  }
-}
-.animatepulse {
-  animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    opacity: 10;
-  }
-  50% {
-    opacity: 0;
-  }
+  @apply rounded-full  h-24 w-24  overflow-hidden  md:flex  items-center justify-center bg-blue-10;
 }
