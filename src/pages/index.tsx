@@ -1,7 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import Header from "@evans/components/Navigation/Header"
-import DevelopmentToolsAndStacks from "@evans/components/Projects/Stacks/DevelopmentToolsAndStacks"
+import GridDevelopmentToolsandStack from "@evans/components/Projects/Stacks/GridDevelopmentToolsandStack"
 // import Image from "next/image"
 
 const Home: NextPage = () => (
@@ -12,7 +12,7 @@ const Home: NextPage = () => (
     </Head>
     <Header />
     <div className="">
-      <DevelopmentToolsAndStacks />
+      <GridDevelopmentToolsandStack/>
     </div>
   </div>
 )
