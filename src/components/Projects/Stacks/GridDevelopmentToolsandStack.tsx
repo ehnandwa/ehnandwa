@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function GridDevelopmentToolsandStack() {
   return(
-   <section className="flex justify-center pt-56 lg:pt-44 animate-ping pb-28 overflow-hidden">
+   <section className="flex justify-center pt-56 lg:pt-44  pb-28 overflow-hidden">
      <section className="dev-stack pb-5">
        <h2 className=" lg:text-5xl font-bold lg:font-extrabold">
          Development stack and tools

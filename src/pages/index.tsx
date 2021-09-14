@@ -11,9 +11,7 @@ const Home: NextPage = () => (
       <meta name="description" content="website" />
     </Head>
     <Header />
-    <div className="">
-      <GridDevelopmentToolsandStack/>
-    </div>
+    <GridDevelopmentToolsandStack/>
   </div>
 )
 
