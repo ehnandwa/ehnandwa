@@ -5,20 +5,18 @@
 .body {
   @apply min-h-screen bg-gray-1 overflow-hidden;
 }
-.fixed {
-  @apply bg-blue-11  fixed inset-x-0 lg:py-5 z-50;
-}
-.nav {
-  @apply max-w-7xl mx-auto px-8;
-}
-.ehn {
-  @apply flex items-center py-5 px-2;
+.fixed-nav {
+  @apply fixed top-0 inset-x-0 py-4 z-50 bg-blue-20;
 }
 .hiddenx {
-  @apply md:flex items-center space-x-8 -ml-32 hidden;
+  @apply hidden md:flex items-center space-x-1;
 }
+.hidden-y {
+  @apply hidden md:flex items-center space-x-1;
+}
+
 .resume {
-  @apply py-1.5 px-5 bg-blue-10 hover:bg-blue-10  hover:text-gray-1 rounded-full transition duration-300;
+  @apply py-2 px-3 bg-blue-10 hover:bg-gray-1 text-blue-50 hover:text-blue-10 rounded-full transition duration-300;
 }
 .dev-stack {
   @apply lg:w-1/2 bg-blue-11 rounded  space-y-6 overflow-hidden;
