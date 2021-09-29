@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.body {
-  @apply min-h-screen bg-gray-1 overflow-hidden;
-}
 .fixed-nav {
   @apply fixed top-0 inset-x-0 py-4 z-50 bg-blue-20;
 }
