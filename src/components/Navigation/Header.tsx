@@ -5,7 +5,6 @@ import CloseMobileMenuIcon from "@evans/components/Icons/Button/CloseMobileMenuI
 import MenuItem from "@evans/components/MenuItem/MenuItem"
 
 function Header() {
-
   const [showMenu, setShowMenu] = useState(false)
 
   return (
@@ -17,7 +16,6 @@ function Header() {
               <div>
                 <Link href="/">
                   <a className="">
-                    <span className="sr-only">evans</span>
                     <span>EN</span>
                   </a>
                 </Link>
@@ -33,16 +31,17 @@ function Header() {
             </div>
 
             <div className="hidden-y">
-              <a
-                href=""
-                className="resume">
+              <a href="" className="resume">
                 Resume
               </a>
             </div>
 
             <div className="md:hidden flex items-center ">
               {showMenu ? (
-                <CloseMobileMenuIcon className="h-6 w-6" onClick={() => setShowMenu(!showMenu)} />
+                <CloseMobileMenuIcon
+                  className="h-6 w-6"
+                  onClick={() => setShowMenu(!showMenu)}
+                />
               ) : (
                 <OpenMobileMenuIcon
                   className="h-6 w-6 mr-2 "

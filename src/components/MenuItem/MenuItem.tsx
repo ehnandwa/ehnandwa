@@ -5,7 +5,8 @@ function MenuItem({ link, name }) {
   return (
     <a
       href={link}
-      className="block px-3 py-2 rounded-md text-base font-medium text-blue-10  ">
+      className="block px-3 py-2 rounded-md text-base font-medium text-blue-10  "
+    >
       {name}
     </a>
   )
