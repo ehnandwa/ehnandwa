@@ -22,10 +22,10 @@
   @apply lg:w-1/2 bg-blue-11 rounded  space-y-6 overflow-hidden;
 }
 .animate-scrolll {
-  @apply  flex space-x-1 whitespace-nowrap text-xs;
+  @apply flex space-x-1 whitespace-nowrap text-xs;
 }
 .strapi {
-  @apply rounded-full h-24 w-24  flex  md:flex items-center justify-center bg-blue-10 ;
+  @apply rounded-full h-24 w-24  flex  md:flex items-center justify-center bg-blue-10;
 }
 .git {
   @apply rounded-full h-24 w-24  flex  md:flex  items-center justify-center bg-blue-10;
@@ -67,7 +67,7 @@
   @apply rounded-full  hover:animate-bounce1  h-24 w-24   md:flex  items-center justify-center bg-blue-10;
 }
 .animatescroll {
-  @apply  flex space-x-1 whitespace-nowrap text-xs;
+  @apply flex space-x-1 whitespace-nowrap text-xs;
 }
 .git1 {
   @apply rounded-full h-24 w-24  overflow-hidden  md:flex  items-center justify-center bg-blue-10;
