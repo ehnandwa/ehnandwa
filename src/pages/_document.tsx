@@ -1,5 +1,11 @@
 // eslint-disable-next-line @next/next/no-document-import-in-page
-import Document, { DocumentContext, Head, Html, Main, NextScript } from "next/document"
+import Document, {
+  DocumentContext,
+  Head,
+  Html,
+  Main,
+  NextScript,
+} from "next/document"
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -11,10 +17,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head/>
+        <Head />
         <body className="bg-blue-11">
-        <Main />
-        <NextScript />
+          <Main />
+          <NextScript />
         </body>
       </Html>
     )

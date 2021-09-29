@@ -1,6 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
 
+const test =blabla()
+
 function CardWithBackground() {
   return (
     <div className="pt-16 lg:pt-36 flex flex-col lg:flex-row items-center">

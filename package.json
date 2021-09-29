@@ -15,7 +15,13 @@
     "check-lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
     "check-format": "prettier --check .",
     "prepare": "husky install",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "commit": "cz"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
   },
   "dependencies": {
     "@storybook/addon-docs": "^6.3.8",
@@ -37,6 +43,7 @@
     "autoprefixer": "^10.3.4",
     "babel-loader": "^8.2.2",
     "chromatic": "^5.9.2",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-next": "11.1.2",
@@ -54,5 +61,10 @@
       "yarn prettier --write",
       "yarn format"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
