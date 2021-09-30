@@ -3,8 +3,8 @@ import Link from "next/link"
 
 function ProfileAndContact() {
   return (
-    <section className="justify-end pr-20 flex  pt-24">
-      <div className="flex-col">
+    <section className=" lg:justify-end justify-center lg:pr-20 flex pt-16  lg:pt-24">
+      <div className="">
           <Image
             width={100}
             height={100}
