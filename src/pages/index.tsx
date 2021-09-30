@@ -1,10 +1,10 @@
 import type { NextPage } from "next"
- import GridDevelopmentToolsandStack from "@evans/components/Projects/Stacks/GridDevelopmentToolsandStack"
+ import ProfileAndContact from "@evans/components/Profile/ProfileAndContact"
 // import Image from "next/image"
 
 const Home: NextPage = () => (
   <>
-     <GridDevelopmentToolsandStack />
+     <ProfileAndContact />
 
   </>
 )
