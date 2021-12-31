@@ -1,4 +1,4 @@
 function FaqSection() {
-  return <>test</>
+  return <>test</>;
 }
-export default FaqSection
+export default FaqSection;

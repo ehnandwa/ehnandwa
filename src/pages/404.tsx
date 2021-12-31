@@ -1,4 +1,4 @@
-import { NextSeo } from "next-seo"
+import { NextSeo } from "next-seo";
 
 function Page404() {
   const SEO = {
@@ -8,13 +8,15 @@ function Page404() {
       title: "Page Not Found",
       description: "page not found",
     },
-  }
+  };
   return (
     <>
       <NextSeo {...SEO} />
 
-      <div className="lg:pt-96 pt-24 font-bold text-center lg:text-3xl">Page Not Found</div>
+      <div className="lg:pt-96 pt-24 font-bold text-center lg:text-3xl">
+        Page Not Found
+      </div>
     </>
-  )
+  );
 }
-export default Page404
+export default Page404;

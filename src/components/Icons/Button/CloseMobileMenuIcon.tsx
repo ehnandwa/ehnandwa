@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react"
+import React, { ReactElement } from "react";
 
 function CloseMobileMenuIcon(props: any): ReactElement {
   return (
@@ -17,6 +17,6 @@ function CloseMobileMenuIcon(props: any): ReactElement {
         d="M6 18L18 6M6 6l12 12"
       />
     </svg>
-  )
+  );
 }
-export default CloseMobileMenuIcon
+export default CloseMobileMenuIcon;

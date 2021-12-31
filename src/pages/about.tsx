@@ -1,4 +1,4 @@
-import { NextSeo } from "next-seo"
+import { NextSeo } from "next-seo";
 
 function About() {
   const SEO = {
@@ -8,13 +8,13 @@ function About() {
       title: "About Evans Nandwa",
       description: "get to know more",
     },
-  }
+  };
   return (
     <>
       <NextSeo {...SEO} />
 
       <div className="font-bold pt-24">About Page</div>
     </>
-  )
+  );
 }
-export default About
+export default About;

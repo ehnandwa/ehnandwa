@@ -1,4 +1,4 @@
-import { NextSeo } from "next-seo"
+import { NextSeo } from "next-seo";
 
 function ErrorPage() {
   const SEO = {
@@ -8,7 +8,7 @@ function ErrorPage() {
       title: "unexpected error",
       description: "unexpected error",
     },
-  }
+  };
   return (
     <>
       <NextSeo {...SEO} />
@@ -17,6 +17,6 @@ function ErrorPage() {
         OOps Unexpected error Something Went Wrong
       </div>
     </>
-  )
+  );
 }
-export default ErrorPage
+export default ErrorPage;

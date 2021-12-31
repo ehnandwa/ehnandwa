@@ -1,5 +1,5 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 
 function CardWithBackground() {
   return (
@@ -24,6 +24,6 @@ function CardWithBackground() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-export default CardWithBackground
+export default CardWithBackground;
