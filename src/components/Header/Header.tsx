@@ -5,7 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 // @ts-ignore
 import Typical from "react-typical";
 
-import content from "../../content";
+import content from "@evans/components/content/index";
 
 export default function Header() {
   const [animated, setAnimated] = useState(false);
@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <div
-      className="p-16 pt-36 flex items-center justify-center"
+      className="pt-36 pb-8 min-h-fit flex items-center justify-center"
       style={{
         background: "#091c29",
       }}
@@ -32,7 +32,7 @@ export default function Header() {
           <h2
             className={`${
               animated ? "" : "translate-y-10 opacity-0"
-            }  transform transition duration-2000 ease-in-out text-3xl md:text-5xl font-bold`}
+            }  transform transition duration-2000 ease-in-out  md:text-2xl font-bold`}
           >
             {content.header.text[0]}
             <br />
@@ -41,13 +41,12 @@ export default function Header() {
           <h1
             className={`${
               animated ? "" : "translate-y-10 opacity-0"
-            }  transform transition duration-2000 ease-in-out font-bold text-2xl text-gray-500`}
+            }  transform transition duration-2000 ease-in-out font-bold text-gray-500`}
           >
             {content.header.text[2]}{" "}
             <Typical
               steps={content.header.typical}
               loop={Infinity}
-              className="inline-block"
             />
           </h1>
           <ScrollLink to="stack" smooth={true}>
