@@ -1,10 +1,11 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   title: "Evans Nandwa",
   description: "Welcome",
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://ehnandwa.vercel.app",
+    url: "https://nandwa.dev",
     site_name: "Evans Nandwa",
   },
   twitter: {
@@ -12,4 +13,4 @@ export default {
     site: "@",
     cardType: "summary_large_image",
   },
-}
+};

@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 function DevelopmentToolsAndStacks() {
   return (
@@ -124,6 +124,6 @@ function DevelopmentToolsAndStacks() {
         </section>
       </div>
     </section>
-  )
+  );
 }
-export default DevelopmentToolsAndStacks
+export default DevelopmentToolsAndStacks;

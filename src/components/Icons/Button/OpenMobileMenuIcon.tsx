@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 function OpenMobileMenuIcon(props: any) {
   return (
@@ -16,6 +16,6 @@ function OpenMobileMenuIcon(props: any) {
         d="M4 6h16M4 12h16M4 18h16"
       />
     </svg>
-  )
+  );
 }
-export default OpenMobileMenuIcon
+export default OpenMobileMenuIcon;

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 // @ts-ignore
 function MenuItem({ link, name }) {
@@ -9,7 +9,7 @@ function MenuItem({ link, name }) {
     >
       {name}
     </a>
-  )
+  );
 }
 
-export default MenuItem
+export default MenuItem;
