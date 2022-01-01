@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
+import Header from "@evans/components/Header/Header";
 // import Image from "next/image"
 
 const Home: NextPage = () => (
   <>
     {/*<ProfileAndContact />*/}
+    <Header />
 
     {/*<div className="flex items-center justify-center overflow-hidden bg-gray-900">*/}
     {/*  <div className=" flex items-center justify-center ">*/}
