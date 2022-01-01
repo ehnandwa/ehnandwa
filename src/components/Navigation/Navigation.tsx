@@ -1,8 +1,8 @@
 import React from "react";
 
-function Header() {
+function Navigation() {
   return (
-    <nav className="shadow-md w-full fixed top-0 left-0">
+    <nav className="shadow-md w-full z-20 fixed top-0 left-0">
       <div className="md:flex bg-gray-900  py-4 md:px-10 px-7">
         <div className="flex items-center justify-center overflow-hidden  rounded-full">
           <div className=" flex items-center justify-center ">
@@ -17,4 +17,4 @@ function Header() {
     </nav>
   );
 }
-export default Header;
+export default Navigation;
