@@ -44,10 +44,7 @@ export default function Header() {
             }  transform transition duration-2000 ease-in-out font-bold text-gray-500`}
           >
             {content.header.text[2]}{" "}
-            <Typical
-              steps={content.header.typical}
-              loop={Infinity}
-            />
+            <Typical steps={content.header.typical} loop={Infinity} />
           </h1>
           <ScrollLink to="stack" smooth={true}>
             <button className=" animate-float bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg">
